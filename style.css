@@ -96,6 +96,7 @@ body{
     outline: none;
     color: #111;
     transition: 0.5s;
+    border-radius: 5px;
 }
 .contact-form-text:focus{
     box-shadow: 0 0 10px 1px #34495e;
