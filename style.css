@@ -71,6 +71,50 @@ footer{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.section-contact{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: url(images/shape-7.png);
+    background-repeat: no-repeat;
+}
+.section-contact h1{
+    padding-left: 80px;
+    font-size: 50px;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.section-contact .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 1px #34495e;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 130px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
 footer h2{
     font-size: 30px;
 }
